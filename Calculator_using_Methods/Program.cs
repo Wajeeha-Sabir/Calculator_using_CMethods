@@ -5,16 +5,19 @@ namespace Calculator_using_Methods
 {
     class Program
     {
+        // SUM METHOD
         static double Sum(double n, double m)
         {
             double sumResult = n + m;
             return sumResult;
         }
+        // SUBTRACT METHOD
         static double Subtract(double n, double m)
         {
             double subResult = n - m;
             return subResult;
         }
+        // DIVIDE METHOD
         static double Divide(double n, double m)
         {
             double divResult;
@@ -30,6 +33,7 @@ namespace Calculator_using_Methods
             }
 
         }
+        // MULTIPLY METHOD
         static double Multiply(double n, double m)
         {
             double mulResult = n * m;
